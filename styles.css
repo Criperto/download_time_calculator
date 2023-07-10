@@ -1,0 +1,263 @@
+.youtube-button {
+      display: inline-block;
+      padding: 10px;
+      background-color: #ff0000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    font-family: '2';
+    }
+    
+.more-button {
+      display: inline-block;
+      padding: 10px;
+      background-color: #008a1c;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    font-family: '2';
+    }
+      
+    .discord-button {
+      display: inline-block;
+      padding: 10px;
+      background-color: #7289DA;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+        font-family: '2';
+    }
+      
+    .github-button {
+      display: inline-block;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+        font-family: '2';
+      }
+
+.redes-sociales {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    width: auto;
+}
+
+
+/* Estilos para la página */
+
+
+@font-face {
+    font-family: '1';
+    src: url('assets/regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: '2';
+    src: url('assets/medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: '3';
+    src: url('assets/bold.otf') format('opentype');
+}
+
+h1 {
+    font-family: '3';
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    text-align: center;
+}
+
+h2 {
+    font-family: '2';
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    text-align: center;
+}
+
+h3 {
+    font-family: '1';
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    text-align: center;
+}
+
+p {
+    font-family: '1';
+    color: lightgray;
+    text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    text-align: center;
+}
+
+label {
+    font-family: '1';
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 300px;
+}
+
+input[type="number"]:focus {
+    border-color: #ff6131;
+    border: 3px solid #ff6131;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f58142;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    font-family: '1';
+}
+
+.boton {
+    text-align: center;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-family: '2';
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    text-align: center;
+}
+
+
+
+
+
+.archivo {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.internet {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* PC desing*/
+@media screen and (min-width: 767px) {
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: rgb(255, 97, 49);
+background: linear-gradient(0deg, rgba(255, 97, 49, 1) 0%, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 1) 60%, rgba(255, 97, 49, 1) 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+    
+}
+
+/* Celu desing*/
+@media screen and (max-width: 767px) {
+
+    body {
+        font-family: Arial, sans-serif;
+    margin: 20px;
+        background: rgb(255,97,49);
+background: linear-gradient(90deg, rgba(255,97,49,1) 0%, rgba(255,196,171,1) 40%, rgba(255,196,171,1) 60%, rgba(255,97,49,1) 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+    }    
+    
+    label {
+        display: block;
+    }
+    
+    select {
+        align-content: center;
+        align-items: center;
+    }
+    
+    input[type="number"] {
+    width: 75%;
+}
+    
+    .youtube-button {
+      display: inline-block;
+        margin: 5px;
+    justify-content: center;
+    align-items: center;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+    }
+    
+.more-button {
+      display: inline-block;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    }
+      
+    .discord-button {
+      display: inline-block;
+        margin: 5px;
+    justify-content: center;
+    align-items: center;
+        padding-bottom:  10px;
+        margin-bottom: 10px;
+        width: 50%;
+    }
+      
+    .github-button {
+      display: inline-block;
+        margin: 5px;
+    justify-content: center;
+    align-items: center;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+      }
+    
+    .redes-sociales {
+        width: auto;
+        text-align: center;
+        display: block;
+    justify-content: center;
+    align-items: center;
+    }
+    
+}
